@@ -10,4 +10,8 @@ describe('String Calculator', function() {
 	it('should return 1 for string 1', function() {
 		expect(calculator.add('1')).toEqual(1);
 	});
+
+	it('should return 3 for string "1,2"', function() {
+		expect(calculator.add('1,2')).toEqual(3);
+	});
 });
