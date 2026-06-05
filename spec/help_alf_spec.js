@@ -21,5 +21,7 @@ describe('Help ALF', function() {
         expect(alf.findSpaceship('. . .\n. . .\n. . X')).toEqual([2, 0]);
     });
 
-    
+    it('should find spaceship at position 7,2 on big map', function() {
+        expect(alf.findSpaceship('. . . . . . . . . .\n. . . . . . . . . .\n. . . . . . . . . .\n. . . . . X . . . .\n. . . . . . . . . .\n. . . . . . . . . .')).toEqual([5, 2]);
+    });
 });
