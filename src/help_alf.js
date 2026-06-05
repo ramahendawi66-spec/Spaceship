@@ -11,7 +11,7 @@ HelpAlf.prototype.findSpaceship = function(map) {
         var cols = rows[y].split(' ');
         for (var x = 0; x < cols.length; x++) {
             if (cols[x] === 'X') {
-                return [x, rows.length - 1 - y];
+                return [x, rows.length - 1 - y]; //umdrehen
             }
         }
     }
