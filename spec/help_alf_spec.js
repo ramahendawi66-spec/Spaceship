@@ -20,5 +20,6 @@ describe('Help ALF', function() {
     it('should find spaceship at bottom right', function() {
         expect(alf.findSpaceship('. . .\n. . .\n. . X')).toEqual([2, 0]);
     });
+
     
 });
